@@ -1,8 +1,9 @@
-import {Shop} from './shop'
+import { Shop } from "./shop";
 
 export type RootStackParamList = {
   Main: undefined;
-  Shop: {shop: Shop};
+  Home: undefined;
+  Shop: { shop: Shop };
   User: undefined;
-  CreateReview: {shop: Shop};
-}
+  CreateReview: { shop: Shop };
+};
