@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": [ "dom", "es6" ],
+    "module": "commonjs",
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "typeRoots": [ "node_modules/@types" ]
+  },
+  "compileOnSave": true,
+  "skipLibCheck": true,
+  "exclude": [ "node_modules", "functions" ],
+  "include": ["src"]
+}
